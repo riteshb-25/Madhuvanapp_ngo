@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="cursive"
+        android:hint="@string/t_t_tgyandhara_a_way_of_promoting_education"
+        android:inputType="textPersonName"
+        android:text="@string/t_t_tgyandhara_a_way_of_promoting_education"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:autofillHints="" />
+</LinearLayout>

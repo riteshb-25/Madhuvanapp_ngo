@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8BEC8F"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:fontFamily="cursive"
+        android:inputType="textPersonName"
+        android:text="@string/t_t_one_day_one_rupees_educational_kit"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="26sp"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="676dp"
+        android:text="TextView" />
+</LinearLayout>

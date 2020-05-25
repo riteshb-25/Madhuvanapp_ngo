@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8BEC8F">
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:fontFamily="cursive"
+        android:hint="@string/t_t_tgyandhara_a_way_of_promoting_education"
+        android:inputType="textPersonName"
+        android:text="@string/t_t_tgyandhara_a_way_of_promoting_education"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/education_is_the_most_powerful_weapon_which_you_can_use_to_change_the_world_nelson_mandela"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="@+id/editText3"
+        app:layout_constraintTop_toBottomOf="@+id/editText3" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="2dp"
+        android:text="@string/gyandhara_a_way_of_promoting_education_is_working_to_prepare_children_for_a_world_that_not_only_places_a_high_value_on_educational_achievement_but_also_on_artistic_flair_social_awareness_independence_and_diversity_we_launched_this_project_is_dated_on_20th_may_2019_we_work_as_per_this_project_to_develop_and_to_test_their_talents_across_a_broadly_based_and_academically_stimulating_curriculum_that_promotes_intellectual_artistic_aesthetic_physical_and_social_development_with_providing_appropriate_opportunities_to_children_with_giving_basic_education_we_work_to_allow_deeper_exploration_of_subjects_of_particular_interest_as_well_as_the_development_of_individual_skills_abilities_capacities_and_talents_with_doing_extra_curriculum_activities_for_children_development"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="157dp"
+        android:layout_height="148dp"
+        android:contentDescription="@string/todo"
+        android:paddingEnd="0dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView9"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:srcCompat="@drawable/ini_gvandhara" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="258dp"
+        android:layout_height="159dp"
+        android:text="@string/in_this_project_our_target_is_children_who_are_belonging_from_5_year_to_15_year_age_group_the_primary_graders_are_often_considered_most_important_years_of_a_child_s_school_career_this_project_has_focused_on_to_strive_to_achieve_the_accessibility_of_environmental_and_development_education_linked_to_social_education_from_primary_school_age"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="411dp"
+        android:layout_height="255dp"
+        android:text="@string/this_project_named_gyandhara_is_working_to_ensure_that_all_children_have_the_opportunities_to_learn_and_make_progress_as_well_as_to_provide_experience_of_all_forms_of_education_linguistic_technological_mathematical_scientific_social_physical_aesthetical_and_creative_with_providing_the_acquisition_of_skills_in_all_these_areas_our_project_has_main_emphasized_on_promoting_moral_social_spiritual_and_cultural_guidance_through_organizing_various_activities_and_events_like_as_sport_education_day_festival_celebration_social_awareness_programme_providing_basic_education_environment_awareness_programmes_and_so_on"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

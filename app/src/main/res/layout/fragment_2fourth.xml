@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8BEC8F"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="cursive"
+            android:inputType="textPersonName"
+            android:text="\t\t\t\t\t\t\t “Fight Against Cancer”"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="28sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="410dp"
+            android:layout_height="379dp"
+            android:text="Awareness Programmes On Cancer For Awakening People To Fight Against Cancer Awareness is a state of being conscious of one’s self and surrounding. We got a government project on a pilot phase on cancer awareness programmes. We worked in the ten villages of the two Talukas of the Sabarkantha District. We have organized awareness programme on cancer at the grass root level for awakening people to survive against cancer. We went to the home to home of village and worked to aware people about the signs, symptoms, causes, risk factors, diagnosis and treatment about cancer. Our objects of this project are to empower individuals, families, communities and society with prevention and intervention skills to fight against cancer and to reduce the level of cancer patient. Madhuvan Foundation’s strategies are guided by two interdependent strategies, and aim to provide a comprehensive and holistic intervention model to make enable people to fight against cancer, which are programme strategy and advocacy strategy.  The purpose of project is to deliver an awareness programme geared towards preventive and intervention services, awareness and capacity building to fight against cancer. Its impact create a safe environment for people of village with main focus on rural people to aware about the cancer. "
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText4" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="294dp"
+            android:layout_height="53dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Objectives of Cancer Awareness "
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            app:layout_constraintEnd_toStartOf="@+id/textView6"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="244dp"
+            android:layout_height="200dp"
+            android:text="@string/to_create_consciousness_of_the_disease_to_help_people_recognize_the_early_sign_and_symptoms_of_cancer_thus_enabling_them_to_seek_treatment_at_an_early_stage_the_programme_encourages_the_participants_to_seek_prompt_medical_attention_for_symptoms_which_may_include_lumps_sores_bleeding_hoarseness_weight_loss_and_persistent_indigestion_cough_pain_etc_to_teach_people_about_the_key_danger_factors_of_most_cancers_when_you_consider_that_extra_than_30_of_cancer_instances_can_be_averted_by_means_of_editing_lifestyle_or_fending_off_the_important_thing_hazard_factors_to_inform_people_about_the_importance_of_cancer_check_up_at_an_early_stage"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText6" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="160dp"
+            android:layout_height="144dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginBottom="1dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView13"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView10"
+            app:srcCompat="@drawable/ini_gvandhara2" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="> To teach people about the key danger factors of most cancers when you consider that extra than 30% of cancer instances can be averted by means of editing lifestyle or fending off the important thing hazard factors.\n> To inform people about the importance of cancer check-up at an early stage"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
